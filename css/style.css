@@ -1,0 +1,29 @@
+body {
+  background-color: #eee;
+  font-family: sans-serif;
+}
+
+.registred {
+  cursor: pointer;
+  border: none;
+  margin-left: 6%;
+  margin-top: 20px;
+  font-family: serif;
+  display: block;
+}
+
+.email {
+  border: none;
+  display: block;
+}
+
+.pass {
+  border: none;
+  margin-top: 20px;
+  display: block;
+}
+
+.all-container {
+  margin-top: 10%;
+  margin-left: 42%;
+}
