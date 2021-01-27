@@ -2,9 +2,11 @@ const mail = document.querySelector(".email");
 const pass = document.querySelector(".pass");
 const boton = document.querySelector(".registred");
 
+var saveMail = "";
+var savePass = "";
+
 boton.addEventListener("click", () => {
-  var saveMail = mail.value;
-  var savePass = pass.value;
-  console.log(saveMail);
-  console.log(savePass);
+  saveMail = mail.value;
+  savePass = pass.value;
+  open("log.html");
 });

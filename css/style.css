@@ -3,7 +3,8 @@ body {
   font-family: sans-serif;
 }
 
-.registred {
+.registred,
+.log {
   cursor: pointer;
   border: none;
   margin-left: 6%;
@@ -12,12 +13,14 @@ body {
   display: block;
 }
 
-.email {
+.email,
+.log-email {
   border: none;
   display: block;
 }
 
-.pass {
+.pass,
+.log-pass {
   border: none;
   margin-top: 20px;
   display: block;
