@@ -3,8 +3,13 @@ body {
   font-family: sans-serif;
 }
 
+.true {
+  text-align: center;
+  color: green;
+}
+
 .registred,
-.log {
+.button-log {
   cursor: pointer;
   border: none;
   margin-left: 6%;
@@ -28,5 +33,6 @@ body {
 
 .all-container {
   margin-top: 10%;
+  width: 100%;
   margin-left: 42%;
 }

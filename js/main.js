@@ -8,5 +8,7 @@ var savePass = "";
 boton.addEventListener("click", () => {
   saveMail = mail.value;
   savePass = pass.value;
+  sessionStorage.setItem("setMailSave", saveMail);
+  sessionStorage.setItem("setPassSave", savePass);
   open("log.html");
 });
