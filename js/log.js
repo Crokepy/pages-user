@@ -17,6 +17,7 @@ botonLog.addEventListener("click", () => {
   passr = logPass.value;
   if ((mailSave === mailr) & (passSave === passr)) {
     console.log("Inicio de sesion logrado");
+    Reflect.set(True.style, "color", "green");
     Reflect.set(True, "textContent", "Haz iniciado sesion exitosamente");
   } else {
     Reflect.set(True, "textContent", "Tu correo o contraseña son incorrectos");
